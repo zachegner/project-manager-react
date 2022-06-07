@@ -29,10 +29,11 @@ const Project = () => {
                     <ClientInfo client={data.project.client} />
 
                     <div className="d-flex">
-                        <DeleteProjectButton project={data.project} />
                         <EditProjectButton project={data.project} />
+                        <DeleteProjectButton project={data.project} />
                     </div>
                     
+                    <EditProjectForm project={data.project} />
                 </div>
             )}
         </>

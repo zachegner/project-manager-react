@@ -2,7 +2,7 @@ import { FaEdit } from "react-icons/fa";
 
 const EditProjectButton = ({ project }) => {
     const editProject = () => {
-        console.log("Edit Project");
+        
     };
 
     return (
