@@ -47,7 +47,6 @@ const AddProjectModal = () => {
         {!loading && !error && (
             <>
                 <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addProjectModal">
-
                     <div className="d-flex align-items-center">
                         <FaList className="icon" />
                         <div>New Project</div>
